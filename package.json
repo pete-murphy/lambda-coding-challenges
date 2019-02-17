@@ -1,0 +1,16 @@
+{
+  "name": "code-challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wallaby.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsverify": "^0.8.4",
+    "tape": "^4.10.0"
+  }
+}
