@@ -12,5 +12,8 @@
   "dependencies": {
     "jsverify": "^0.8.4",
     "tape": "^4.10.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.18"
   }
 }
