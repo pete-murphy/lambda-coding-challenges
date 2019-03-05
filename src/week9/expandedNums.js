@@ -1,10 +1,12 @@
-const pipe = (...fns) => x => fns.reduce((acc, fn) => fn(acc), x)
 const toChars = str => str.split("")
 const append = s1 => s2 => `${s2}${s1}`
-
+const mult = m => n => m * n
 const expandedNums = xs =>
   toChars(String(xs))
-    .reduce((strs, x) => [...strs.map(append("0")), x], [])
+    .map(Number)
+    .reduce((nums, x) => [...nums.map(mult(10)), x], [])
+    .filter(x => x)
+    .map(String)
     .join(" + ")
 
-expandedNums(562) //?
+expandedNums(520)
