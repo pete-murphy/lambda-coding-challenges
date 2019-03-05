@@ -1,8 +1,8 @@
 module.exports = function() {
   return {
-    files: ["*/*.js", "!*/*.test.js"],
+    files: ["src/*/*.js", "!src/*/*.test.js"],
 
-    tests: ["*/*.test.js"],
+    tests: ["src/*/*.test.js"],
 
     testFramework: "tape",
     env: {
