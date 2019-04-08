@@ -5,4 +5,4 @@ const insert = (ys, x) => {
 
 const insertionSort = arr => arr.reduce(insert, [])
 
-insertionSort([1, 2, 3, 9, 6, 3]) //?
+insertionSort([1, 2, 3, 9, 6, 3])
